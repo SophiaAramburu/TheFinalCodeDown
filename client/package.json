@@ -44,6 +44,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "tailwind": "^4.0.0"
   }
 }
