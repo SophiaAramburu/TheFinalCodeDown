@@ -4,6 +4,8 @@ import signupPhoto from '../assets/images/signup.png'
 export default function Signup() {
   return (
 
+    <div class="container">
+
     <div class="top-buzz-container">
       <h3 class= "top-buzz-section-header"> buzzes from last week</h3>
       
@@ -17,5 +19,9 @@ export default function Signup() {
     <div class="container ">
      
 </div>
+
   )
 }
+
+// Line 3:8:  'signupPhoto' is defined but never used  no-unused-vars
+
