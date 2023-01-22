@@ -21,7 +21,7 @@ export default function Signup() {
 
     <br></br>
 
-    <button type="button">Register Now!</button>
+    <button type="button"><em>Register Now!</em></button>
     
   </form>
   )
