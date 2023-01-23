@@ -30,8 +30,13 @@ export default function Signup() {
       <br></br>
 
       <div class= "buzz-text-view  border-solid border-2 border-indigo-600">
+<<<<<<< HEAD
         <p class= "buzz-text text-center md:font-serif tracking-wide text-white bg-black text-3xl">I saw Sophia crying at the bar</p><br></br>
       <p class= "buzz-details-text text-center md:font-serif text-white bg-black text-2xl"> 📍Austin, TX </p></div><br></br>
+=======
+        <p class= "buzz-text text-center md:font-serif tracking-wide text-white bg-black">Hey Dee & I are here on 6th street, last call at the Library! Hurry guys!</p><br></br>
+      <p class= "buzz-details-text text-center md:font-serif text-white bg-black"> 📍Austin, TX </p></div><br></br>
+>>>>>>> ce200af181f4fb4a14348643602cf23e5d7e2864
       
       <br></br>
 
