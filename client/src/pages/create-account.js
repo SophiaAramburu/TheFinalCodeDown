@@ -1,28 +1,50 @@
-
-
 import React from 'react'
 import signupPhoto from '../assets/images/signup.png'
 export default function Signup() {
   return (
-    // <div>signup<img src={signupPhoto}/></div>
+    <div class="create-account">
+      
+      <form>
 
-      // create text input field here 
-  <form>
-    <label for="fname">First name:</label><br>
-    <input type="text" id="firstname" name="fname"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lastname" name="lname"><br>
-    <label for="email">Email:</label><br>
-    <input type="text" id="email" name="email-address"><br>
-    <label for="password">Password:</label><br>
-    <input type="text" id="password" name="p-word"></input><br>
-    <label for="confirm">Confirm Password:</label><br>
-    <input type="text" id="confirm-password" name="confirm-pword"></input>
+      <div class="input-1">
+        <label>
+          First Name:
+          <imput type="text" name="name" placeholder="First Name" />
+        </label>
+      </div>
+        
+      <div class="input-2">
+        <label>
+          Last Name:
+          <imput type="text" name="name" placeholder="Last Name" />
+        </label>
+      </div>
 
-    <br></br>
+      <div class="input-3">
+        <label>
+          Email:
+          <imput type="text" name="name" placeholder="Email" />
+        </label>
+      </div>
 
-    <button type="button"><em>Register Now!</em></button>
-    
-  </form>
+      <div class="input-4">
+        <label>
+          Password:
+          <imput type="text" name="name" placeholder="Password" />
+        </label>
+      </div>
+
+      <div class="input-5">
+        <label>
+          Confirm Password:
+          <imput type="text" name="name" placeholder="Confirm Password" />
+        </label>
+      </div>
+
+      </form>
+
+      <button class="button" type="button">Register Now!</button>
+
+    </div>
   )
 }

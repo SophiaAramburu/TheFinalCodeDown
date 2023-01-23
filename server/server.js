@@ -30,7 +30,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "../client/public/index.html"));
 });
 
-app.use("/status", statusRoutes);
+app.use("/api/status", statusRoutes);
 
 app.listen(PORT, () =>
   console.log(`Example app listening at http://localhost:${PORT}`)
