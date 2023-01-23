@@ -17,20 +17,20 @@ export default function Signup() {
       <br></br>
     
       <div class= "buzz-text-view  border-solid border-2 border-indigo-600">
-        <p class= "buzz-text text-center md:font-serif tracking-wide bg-black text-white text-3xl">I saw Sophia crying at the bar</p> <br></br>
-        <p class= "buzz-details-text text-center md:font-serif text-white bg-black text-2xl"> 📍Austin, TX </p></div><br></br>
+        <p class= "buzz-text text-center md:font-serif tracking-wide bg-black text-white text-3xl">I just saw Reggie's ex at Cyote Ugly!! Abort! </p> <br></br>
+        <p class= "buzz-details-text text-center md:font-serif text-white bg-black text-2xl"> Houston, TX </p></div><br></br>
 
       <br></br>
 
       <div class= "buzz-text-view  border-solid border-2 border-indigo-600">
-        <p class= "buzz-text text-center md:font-serif tracking-wide text-white bg-black text-3xl">I saw Sophia crying at the bar</p><br></br>
-      <p class= "buzz-details-text text-center md:font-serif text-white bg-black text-2xl">📍Austin, TX </p></div><br></br>
+        <p class= "buzz-text text-center md:font-serif tracking-wide text-white bg-black text-3xl">Have ya'll seen Alexandria, she wandered off and she's messed up.</p><br></br>
+      <p class= "buzz-details-text text-center md:font-serif text-white bg-black text-2xl">San Antonio, TX </p></div><br></br>
       </div>
 
       <br></br>
 
       <div class= "buzz-text-view  border-solid border-2 border-indigo-600">
-        <p class= "buzz-text text-center md:font-serif tracking-wide text-white bg-black text-3xl">I saw Sophia crying at the bar</p><br></br>
+        <p class= "buzz-text text-center md:font-serif tracking-wide text-white bg-black text-3xl">Don't go to Wonder Bar, Jose is here!!!</p><br></br>
       <p class= "buzz-details-text text-center md:font-serif text-white bg-black text-2xl"> 📍Austin, TX </p></div><br></br>
       
       <br></br>
