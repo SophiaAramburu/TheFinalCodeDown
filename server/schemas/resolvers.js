@@ -1,31 +1,32 @@
 const { AuthenticationError } = require('apollo-server-express');
-const { User, UserPost } = require('../models');
+const { User, Post } = require('../models');
 //JWT token, authentication for user login
 const { signToken } = require("../utils/auth");
 
 const resolvers = {
     Query: {
         users: async () => {
-            return User.find().populate('userPosts');
-          },
-          user: async (parent, { username }) => {
-            return User.findOne({ username }).populate('userPosts');
-          },
-          userPosts: async (parent, { username }) => {
-            const params = username ? { username } : {};
-            return userPost.find(params).sort({ createdAt: -1 });
-          },
-          userPost: async (parent, { userPostId }) => {
-            return userPost.findOne({ _id: userPostId });
-          },
+            return User.find().populate('posts');
         },
+        user: async (parent, { username }) => {
+            return User.findOne({ username }).populate('posts');
+        },
+        posts: async (parent, { username }) => {
+            const params = username ? { username } : {};
+            return Post.find(params).sort({ createdAt: -1 });
+        },
+        //Post in models folder
+        post: async (parent, { postId }) => {
+            return Post.findOne({ _id: postId });
+        },
+    },
 
     Mutation: {
-        addUser: async (parent, { username, email, password}) => {
+        addUser: async (parent, { username, email, password }) => {
             const user = await User.create({ username, email, password });
             const token = signToken(user);
-            return { token, user}
-        }, 
+            return { token, user }
+        },
 
         //When the user logins into the app
         login: async (parent, { email, password }) => {
@@ -47,20 +48,37 @@ const resolvers = {
             const token = signToken(user);
 
             return { token, user };
-        }, 
+        },
 
-        addUserPost: async (parent, { postText, postAuthor }) => {
-            const userPost = await userPost.create({ postText, postAuthor });
+        addPost: async (parent, { postText, postAuthor }) => {
+            const post = await Post.create({ postText, postAuthor });
 
             await User.findOneAndUpdate(
                 { username: postAuthor },
-                { $addToSet: { userPosts: userPost._id }}
+                { $addToSet: { posts: post._id } }
             );
 
-            return userPost;
+            return post;
         },
-        removeUserPost: async (parent, { userPostId }) => {
-            return userPost.findOneAndDelete({ _id: userPostId });
+        // addpostProtected: async (parent, { postText}, context) => {
+        //     if (context.user) {
+        //         try {
+        //             const post = await post.create({ postText, 
+        //                 postAuthor: context.username });
+        //             await User.findOneAndUpdate(
+        //                 { username: context.username },
+        //                 { $addToSet: { posts: post._id } }
+        //             );
+        //         } catch (error) {
+        //             console.log(error)
+        //             res.status(500).json(error)
+        //         }
+        //     }
+        //     throw new AuthenticationError('Incorrect credentials');
+
+        // },
+        removePost: async (parent, { postId }) => {
+            return post.findOneAndDelete({ _id: postId });
         }
     }
 
