@@ -62,8 +62,10 @@ For running the server file on you can use this command.
 
 **THE FINAL CODEDOWN TEAM**
 
-- [SOPHIA ARAMBURU](www.github.com/)
-- [ALEXANDRIA GUERRERO](www.github.com/)
-- [TANGNAY OU](www.github.com/)
-- [JOSE HUERTA](www.github.com/)
-- [DEMETRIUS CARTER](www.github.com/)
+- [SOPHIA ARAMBURU](https://github.com/SophiaAramburu)
+- [ALEXANDRIA GUERRERO](https://github.com/Ag6793)
+- [TANGNAY OU](https://github.com/Tangnay)
+- [JOSE HUERTA](https://github.com/Huertz)
+- [DEMETRIUS CARTER](https://github.com/DEMETRIUSCARTER)
+- [REGINALD PITTS](https://github.com/truthsrebirth)
+
