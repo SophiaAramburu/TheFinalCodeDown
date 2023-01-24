@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-import React, {useState} from 'react';
-import Auth from '../utils/auth';
-
-export default function Login() {
-  const [userFormData, setUserFormData] = useState({ email: '', password: '' });
-  const [validated] = useState(false);
-  const [showAlert, setShowAlert] = useState(false);
-=======
 // https://ej2.syncfusion.com/react/documentation/textbox/how-to/add-textbox-programmatically/
 // import { Input } from '@syncfusion/ej2-inputs';
 import * as React from "react";
@@ -55,7 +46,6 @@ export default class Default extends React.Component {
 
 // need export default here 
 
->>>>>>> f07561c2f85865ae51dff88f44723419ea50c9f5
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
@@ -126,11 +116,11 @@ export default class Default extends React.Component {
           <Form.Control.Feedback type='invalid'>Password is required!</Form.Control.Feedback>
         </Form.Group>
         <Button
-          disabled={!(userFormData.email && userFormData.password)}
+          disabled={!(userFormData.email && userFormData.password)}t
           type='submit'
           variant='success'>
           Submit
         </Button>
       </Form>
   );
-};
+
