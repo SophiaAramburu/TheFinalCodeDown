@@ -44,5 +44,6 @@ export default class Default extends React.Component {
     }
 }
 
-// ReactDOM.render(<Default />, document.getElementById('input-container'));
+// need export default here 
+
 

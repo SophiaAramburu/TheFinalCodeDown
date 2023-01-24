@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { getAllMatchups } from '../utils/app';
+
 // Uncomment import statements below after building queries and mutations
 // import { useQuery } from '@apollo/client';
 // import { QUERY_MATCHUPS } from '../utils/queries';

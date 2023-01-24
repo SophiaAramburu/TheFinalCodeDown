@@ -54,3 +54,5 @@ export default function Signup() {
 </div>
   )
 }
+
+// need export default here
