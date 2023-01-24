@@ -9,35 +9,35 @@ export default function Signup() {
       <div class="input-1">
         <label>
           First Name:
-          <imput type="text" name="name" placeholder="First Name" />
+          <input type="text" name="name" placeholder="First Name" />
         </label>
       </div>
         
       <div class="input-2">
         <label>
           Last Name:
-          <imput type="text" name="name" placeholder="Last Name" />
+          <input type="text" name="name" placeholder="Last Name" />
         </label>
       </div>
 
       <div class="input-3">
         <label>
           Email:
-          <imput type="text" name="name" placeholder="Email" />
+          <input type="text" name="name" placeholder="Email" />
         </label>
       </div>
 
       <div class="input-4">
         <label>
           Password:
-          <imput type="text" name="name" placeholder="Password" />
+          <input type="text" name="name" placeholder="Password" />
         </label>
       </div>
 
       <div class="input-5">
         <label>
           Confirm Password:
-          <imput type="text" name="name" placeholder="Confirm Password" />
+          <input type="text" name="name" placeholder="Confirm Password" />
         </label>
       </div>
 
