@@ -44,7 +44,3 @@ const startApolloServer = async (typeDefs, resolvers) => {
   
 // Call the async function to start the server
   startApolloServer(typeDefs, resolvers);
-
-// app.listen(PORT, () =>
-//   console.log(`Example app listening at http://localhost:${PORT}`)
-// );
