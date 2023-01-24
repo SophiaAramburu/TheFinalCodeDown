@@ -46,9 +46,10 @@ export default function Signup() {
 
       <div class= "buzz-text-view border-solid border-2 border-indigo-600 w-3/5 mx-auto" >
       <p class= "buzz-text bg-yellow-200 text-center tracking-wide md:font-serif text-white bg-black text-2xl"> Y'all need to come get Tangnay, she too lit!!</p><br></br>
+
       <p class= "buzz-details-text text-center md:font-serif text-white bg-black text-1xl" > 📍Austin, TX </p></div><br></br>
 
-      <button type="button">Create a Buzz!</button>
+      <button class="press" type="button">Create a Buzz!</button>
 
 </div>
   )
