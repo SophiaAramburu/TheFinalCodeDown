@@ -52,3 +52,5 @@ export default function Comment() {
 </div>
   )
 }
+
+// need export default here

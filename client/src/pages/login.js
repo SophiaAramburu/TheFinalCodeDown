@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, {useState} from 'react';
 import Auth from '../utils/auth';
 
@@ -5,6 +6,56 @@ export default function Login() {
   const [userFormData, setUserFormData] = useState({ email: '', password: '' });
   const [validated] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
+=======
+// https://ej2.syncfusion.com/react/documentation/textbox/how-to/add-textbox-programmatically/
+// import { Input } from '@syncfusion/ej2-inputs';
+import * as React from "react";
+import * as ReactDOM from "react-dom";
+export default class Default extends React.Component {
+    render() {
+        return (<div className="inner-container">
+            <p>Log In</p>
+            <input id="input-01" type="text" ref={e1 => this.input1 = e1}/>
+            <input id="input-02" type="text" ref={e2 => this.input2 = e2}/>
+        </div>);
+    }
+    // require email
+    email() {
+        // Input.createInput({
+        //     element: this.input1,
+        //     properties: {
+        //         placeholder: 'Enter email address'
+        //     }
+        // });
+        // Input.createInput({
+        //     buttons: ['e-input-group-icon e-input-down'],
+        //     element: this.input2,
+        //     properties: {
+        //         placeholder: 'Enter Value'
+        //     }
+        // });
+    }
+    // password
+    password() {
+        // Input.createInput({
+        //     element: this.input1,
+        //     properties: {
+        //         placeholder: 'Enter Password'
+        //     }
+        // });
+        // Input.createInput({
+        //     buttons: ['e-input-group-icon e-input-down'],
+        //     element: this.input2,
+        //     properties: {
+        //         placeholder: 'Enter Value'
+        //     }
+        // });
+    }
+}
+
+// need export default here 
+
+>>>>>>> f07561c2f85865ae51dff88f44723419ea50c9f5
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
