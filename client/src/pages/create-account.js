@@ -2,48 +2,48 @@ import React from 'react'
 import signupPhoto from '../assets/images/signup.png'
 export default function Signup() {
   return (
-    <div class="create-account">
+    <div class="create-account bg-yellow-200">
       
       <form>
 
-      <div class="input-1">
+      <div class="input-1 text-2xl font md:font-serif">
         <label>
           First Name:
-          <input type="text" name="name" placeholder="First Name" />
-        </label>
+          <input class ="bg-black text-white"type="text" name="name" placeholder="First Name" />
+        </label> 
       </div>
-        
-      <div class="input-2">
+      <br></br><br></br>
+      <div class="input-2 text-2xl md:font-serif">
         <label>
           Last Name:
-          <input type="text" name="name" placeholder="Last Name" />
+          <input class ="bg-black" type="text" name="name" placeholder="Last Name" />
         </label>
       </div>
-
-      <div class="input-3">
+      <br></br><br></br>
+      <div class="input-3 text-2xl md:font-serif">
         <label>
           Email:
-          <input type="text" name="name" placeholder="Email" />
+          <input class ="bg-black" type="text" name="name" placeholder="Email" />
         </label>
       </div>
-
-      <div class="input-4">
+      <br></br><br></br>
+      <div class="input-4 text-2xl md:font-serif">
         <label>
           Password:
-          <input type="text" name="name" placeholder="Password" />
+          <input class ="bg-black" type="text" name="name" placeholder="Password" />
         </label>
       </div>
-
-      <div class="input-5">
+      <br></br><br></br>
+      <div class="input-5 text-2xl md:font-serif">
         <label>
           Confirm Password:
-          <input type="text" name="name" placeholder="Confirm Password" />
+          <input class ="bg-black" type="text" name="name" placeholder="Confirm Password" />
         </label>
       </div>
-
+      <br></br><br></br>
       </form>
 
-      <button class="button" type="button">Register Now!</button>
+      <button class="button text-2xl md:font-serif text-center" type="button">Register Now!</button>
 
     </div>
   )
