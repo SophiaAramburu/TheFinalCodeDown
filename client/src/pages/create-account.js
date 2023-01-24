@@ -1,9 +1,15 @@
 import React from 'react'
 import signupPhoto from '../assets/images/signup.png'
+import Logo from '../assets/images/header.jpg'
+
 export default function Signup() {
   return (
     <div class="create-account bg-yellow-200">
       
+      <div photo>
+      <img src={ Logo } alt="Logo" width="1000px" background-size="cover" />
+      </div>
+
       <form>
 
       <div class="input-1 text-2xl font md:font-serif">
