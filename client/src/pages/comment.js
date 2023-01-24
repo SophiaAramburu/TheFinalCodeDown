@@ -13,13 +13,13 @@ export default function Signup() {
 
       <div class= "top-buzz">
         <div class= "buzz-contents"></div>
-      <div class= "buzz-text-view border-solid border-2 border-indigo-600 space-y-3.5" >
+      <div class= "buzz-text-view border-solid border-2 border-indigo-600 mx-auto w-3/5" >
       <p class= "buzz-text bg-yellow-200 text-center tracking-wide md:font-serif text-white bg-black text-2xl">I saw Sophia crying at the bar</p><br></br>
       <p class= "buzz-details-text text-center md:font-serif text-white bg-black text-1xl" > 📍Austin, TX </p></div><br></br>
       
       <br></br>
     
-      <div class= "buzz-text-view  border-solid border-2 border-indigo-600">
+      <div class= "buzz-text-view  border-solid border-2 border-indigo-600 w-3/5 mx-auto">
         <p class= "buzz-text text-center md:font-serif tracking-wide bg-black text-white text-2xl">I just saw Reggie's ex at Cyote Ugly!! Abort! </p> <br></br>
         <p class= "buzz-details-text text-center md:font-serif text-white bg-black text-1xl"> 📍Houston, TX </p></div><br></br>
 
@@ -32,20 +32,20 @@ export default function Signup() {
 
       <br></br>
 
-      <div class= "buzz-text-view  border-solid border-2 border-indigo-600">
+      <div class= "buzz-text-view  border-solid border-2 border-indigo-600 w-3/5 mx-auto">
         <p class= "buzz-text text-center md:font-serif tracking-wide text-white bg-black text-2xl">Don't go to Wonder Bar, Jose is here!!!</p><br></br>
       <p class= "buzz-details-text text-center md:font-serif text-white bg-black text-1xl"> 📍Austin, TX </p></div><br></br>
       
       <br></br>
 
-      <div class= "buzz-text-view border-solid border-2 border-indigo-600 space-y-3.5" >
+      <div class= "buzz-text-view border-solid border-2 border-indigo-600 w-3/5 mx-auto" >
       <p class= "buzz-text bg-yellow-200 text-center tracking-wide md:font-serif text-white bg-black text-2xl"> Get out of Alibi, Dee is trying to find us!!</p><br></br>
       <p class= "buzz-details-text text-center md:font-serif text-white bg-black text-1xl" > 📍Austin, TX </p></div><br></br>
       
       <br></br>
 
-      <div class= "buzz-text-view border-solid border-2 border-indigo-600 space-y-3.5" >
-      <p class= "buzz-text bg-yellow-200 text-center tracking-wide md:font-serif text-white bg-black text-2xl"> Get out of Alibi, Dee is trying to find us!!</p><br></br>
+      <div class= "buzz-text-view border-solid border-2 border-indigo-600 w-3/5 mx-auto" >
+      <p class= "buzz-text bg-yellow-200 text-center tracking-wide md:font-serif text-white bg-black text-2xl"> Y'all need to come get Tangnay, she too lit!!</p><br></br>
       <p class= "buzz-details-text text-center md:font-serif text-white bg-black text-1xl" > 📍Austin, TX </p></div><br></br>
 
       <button type="button">Create a Buzz!</button>
