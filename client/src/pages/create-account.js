@@ -7,7 +7,7 @@ export default function Signup() {
     <div class="create-account bg-yellow-200">
       
       <div photo>
-      <img src={ Logo } alt="Logo" width="1000px" background-size="cover" />
+        <img src={ Logo } alt="Logo" width="1000px" background-size="cover" />
       </div>
 
       <form>

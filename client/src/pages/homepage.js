@@ -26,6 +26,39 @@ const Home = () => {
   return (
     <div className="card bg-white card-rounded w-50">
       <img src={ Logo } alt="Logo" width="1000px" background-size="cover" />
+
+      <div class="input-1 text-2xl font md:font-serif">
+        <label>
+          Email: <input class="bg-black text-white" type="text" email="email" placeholder="Enter Email" />
+        </label>
+      </div>
+
+    <br></br>
+
+      <div class="input-1 text-2xl font md:font-serif">
+        <label>
+          Password: <input class="bg-black text-white" type="text" password="password" placeholder="Enter Password" />
+        </label>
+      </div>
+
+    <br></br>
+
+      <div class="input-1 text-2xl font md:font-serif">
+        <label>
+          <button type="button">Click me to login!</button>
+        </label>
+      </div>
+
+      <br></br>
+
+      <br></br>
+
+      <div class="input-1 text-2xl font md:font-serif">
+        <label>
+          <button type="button">Register Now!</button>
+        </label>
+      </div>
+
     </div>
   );
 };
