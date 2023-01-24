@@ -1,27 +1,36 @@
 import * as React from "react";
+
 export default function Login() {
     
         return (
             <div className="inner-container">
-            <input id="input-01" type="text" ref={e1 => this.input1 = e1}/>
-            <input id="input-02" type="text" ref={e2 => this.input2 = e2}/>
-        </div>);
+
+                <form>
+                    <label for="Email">Email:</label><br></br>
+                    <input id="input-01" type="text" ref={e1 => this.input1 = e1}/>
+
+                    <label for="Password">Password:</label><br></br>
+                    <input id="input-02" type="text" ref={e2 => this.input2 = e2}/>
+                </form>
+
+            </div>);
+
     
     // require email
-    //email() {
-        // Input.createInput({
-        //     element: this.input1,
-        //     properties: {
-        //         placeholder: 'Enter email address'
-        //     }
-        // });
-        // Input.createInput({
-        //     buttons: ['e-input-group-icon e-input-down'],
-        //     element: this.input2,
-        //     properties: {
-        //         placeholder: 'Enter Value'
-        //     }
-        // });
+    // email() {
+    //     Input.createInput({
+    //         element: this.input1,
+    //         properties: {
+    //             placeholder: 'Enter email address'
+    //         }
+    //     });
+    //     Input.createInput({
+    //         buttons: ['e-input-group-icon e-input-down'],
+    //         element: this.input2,
+    //         properties: {
+    //             placeholder: 'Enter Value'
+    //         }
+    //     });
     }
     // password
     // password() {
