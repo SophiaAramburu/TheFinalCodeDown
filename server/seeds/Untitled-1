@@ -1,0 +1,9 @@
+ {
+     id: 12345
+     name: “Tangnay”
+     posts: [{
+        status: “Lemoon is good”, 
+         date: “1234343434”,
+         location: {late: 1222, long: 1222}
+     }]
+  }

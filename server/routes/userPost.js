@@ -16,9 +16,22 @@ router.get("/", async function (req, res, next) {
   };
 
   const userPost = await UserPostModel.find(query);
+  const response = [];
+  userPost.forEach((u) => {
+    u.posts.forEach((p) => {
+      response.push({
+        owner: u.name,
+        location: p.location,
+        status: p.status,
+        createdDate: p.createdDate,
+        updatedDate: p.updatedDate,
+      });
+    });
+  });
+
   res = setResponseParams(res, RESPONSE_CODE[0], DATA_TYPE[0]);
   const result = {
-    items: userPost,
+    items: response,
   };
   res.send(result);
 });

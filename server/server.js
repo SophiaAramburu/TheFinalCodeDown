@@ -1,5 +1,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
+const cors = require("cors");
+
 dotenv.config();
 
 //Apollo Server for gql
@@ -13,6 +15,11 @@ const db = require("./config/connection");
 const statusRoutes = require("./routes/userPost");
 
 //middleware
+app.use(
+  cors({
+    origin: "*",
+  })
+);
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
