@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import Logo from '../assets/images/header.jpg'
 
 export default function Header() {
 
@@ -32,12 +33,11 @@ export default function Header() {
       <div class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"><Link to="/pages/login">Login</Link></div>
     </div>
 
-    {/* Add a log out page  */}
-    <div>
-      <a href="" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Log Out</a>
-    </div>
-
   </div>
+
+  <div className="card bg-white card-rounded w-50">
+      <img src={ Logo } alt="Logo" width="1000px" background-size="cover" /></div>
+
 </nav>
 
     </>

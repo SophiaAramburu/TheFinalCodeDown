@@ -1,15 +1,11 @@
 import React from 'react'
 import signupPhoto from '../assets/images/signup.png'
-import Logo from '../assets/images/header.jpg'
 
 export default function Signup() {
   return (
     <div class="create-account bg-yellow-200">
       
-      <div photo>
-        <img src={ Logo } alt="Logo" width="1000px" background-size="cover" />
-      </div>
-
+     
       <form>
 
       <div class="input-1 text-2xl font md:font-serif">
@@ -49,10 +45,8 @@ export default function Signup() {
       <br></br><br></br>
       </form>
 
-      <button class="button text-2xl md:font-serif text-center" type="button">Register Now!</button>
+      <button class="button text-2xl md:font-serif text-center" type="button">Click me to create an account!</button>
 
     </div>
   )
 }
-
-// need export default
