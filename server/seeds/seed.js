@@ -1,31 +1,36 @@
 const db = require('../config/connection');
-const { User, Buzz } = require('../models');
+const { User, Post } = require('../models'); 
+//Contains user login data
 const userSeeds = require('./userSeeds.json');
-const buzzSeeds = require('./buzzPostSeeds.json');
+//Contains userPost data
+const postSeeds = require('../seeds/postSeeds.json');
 
-db.once('open', async () => {
+
+
+db.once( 'open', async () => {
   try {
-    await Buzz.deleteMany({});
+    await Post.deleteMany({});
     await User.deleteMany({});
 
     await User.create(userSeeds);
 
-    for (let i = 0; i < buzzSeeds.length; i++) {
-      const { _id, buzzAuthor } = await Buzz.create(buzzSeeds[i]);
+    for (let i = 0; i < postSeeds.length; i++) {
+      const { _id, postAuthor } = await Post.create(postSeeds[i]);
       const user = await User.findOneAndUpdate(
-        { username: buzzAuthor },
+        { username: postAuthor },
         {
           $addToSet: {
-            buzz: _id,
-          },
+            posts: _id
+          }
         }
-      );
+      )
     }
+
   } catch (err) {
     console.error(err);
     process.exit(1);
   }
 
-  console.log('all done!');
+  console.log('Finished!');
   process.exit(0);
 });
