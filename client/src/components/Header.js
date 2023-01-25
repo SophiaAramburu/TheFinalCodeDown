@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Logo from '../assets/images/header.jpg'
+// import Logo from '../assets/images/header.jpg'
 
 export default function Header() {
 
@@ -35,8 +35,8 @@ export default function Header() {
 
   </div>
 
-  <div className="card bg-white card-rounded w-50">
-      <img src={ Logo } alt="Logo" width="1000px" background-size="cover" /></div>
+  {/* <div className="card bg-white card-rounded w-50"> */}
+      {/* <img src={ Logo } alt="Logo" width="1000px" background-size="cover" /></div> */}
 
 </nav>
 
