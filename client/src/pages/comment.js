@@ -4,8 +4,8 @@ export default function Comment() {
   return (
      
     <div class="top-buzz-container bg-yellow-200">
-       
        <img class ="mx-auto" src={drunkBee} alt="Drunk bee" width="150" height="200"/>
+       
       <h3 class= "top-buzz-section-header bg-yellow-200 text-center bg-black font-sans md:font-serif text-5xl tracking-widest animate-pulse"> Latest Buzzes</h3>
 
       <br></br>
