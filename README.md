@@ -10,7 +10,7 @@
 
 ## Screenshots
 
-<a href="https://ibb.co/K7gHTPV"><img src="https://i.ibb.co/sQ4r8fs/09-AE5-A02-C269-4-F4-B-A6-EC-5-F1-FD0-EA79-C6.jpg" alt="09-AE5-A02-C269-4-F4-B-A6-EC-5-F1-FD0-EA79-C6" border="0"></a>
+<img src="https://i.ibb.co/4Rp028b/Screenshot-2023-01-24-at-9-15-38-PM.png" alt="Screenshot-2023-01-24-at-9-15-38-PM" border="0">
 
 ## Available Commands
 
