@@ -44,7 +44,7 @@ const Home = () => {
 
       <div class="input-1 text-2xl font md:font-serif">
         <label>
-          <button type="button">Click me to login!</button>
+          <button type="button"><Link to="/pages/login">Log In!</Link></button>
         </label>
       </div>
 
@@ -54,11 +54,9 @@ const Home = () => {
 
       <div class="input-1 text-2xl font md:font-serif">
         <label>
-          <button type="button">Register Now!</button>
+          <button type="button"><Link to="/pages/create-account">Click here to Create Account!</Link></button>
         </label>
       </div>
-
-      <form action="./pages/create-account" method="POST"></form>
 
     </div>
   );
