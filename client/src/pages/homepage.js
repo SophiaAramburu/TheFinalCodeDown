@@ -42,12 +42,6 @@ const Home = () => {
 
     <br></br>
 
-      <div class="input-1 text-2xl font md:font-serif">
-        <label>
-          <button type="button"><Link to="/pages/login">Log In!</Link></button>
-        </label>
-      </div>
-
       <br></br>
 
       <br></br>
