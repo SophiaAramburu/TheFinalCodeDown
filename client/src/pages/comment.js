@@ -3,10 +3,10 @@ import drunkBee from '../assets/images/drunkbee.png'
 export default function Comment() {
   return (
      
-    <div class="top-buzz-container bg-yellow-200">
-       <img class ="mx-auto" src={drunkBee} alt="Drunk bee" width="150" height="200"/>
-       
-      <h3 class= "top-buzz-section-header bg-yellow-200 text-center bg-black font-sans md:font-serif text-5xl tracking-widest animate-pulse"> Latest Buzzes</h3>
+    <div class="top-buzz-container bg-yellow-200"><br></br>
+       <img class ="mx-auto outline" src={drunkBee} alt="Drunk bee" width="300" height="350"/>
+       <br></br><br></br>
+      <h3 class= "top-buzz-section-header bg-yellow-200 text-center bg-black font-sans md:font-serif underline text-6xl tracking-widest animate-pulse"> Latest Buzzes</h3>
 
       <br></br>
 
@@ -46,8 +46,9 @@ export default function Comment() {
       <div class= "buzz-text-view border-solid border-2 border-red-400 w-3/5 mx-auto bg-black" >
       <p class= "buzz-text text-center tracking-wide md:font-serif text-white bg-black text-2xl"> Y'all need to come get Tangnay, she too lit!!</p><br></br>
       <p class= "buzz-details-text text-center md:font-serif text-white bg-black text-1xl" > 📍Austin, TX </p></div><br></br>
-
-      <div class="font-serif text-3xl border-dashed px-96"><button type="button">Create a Buzz!</button></div>
+<br></br>
+      <div class="font-serif text-4xl border-dashed px-72 pb-32 animate-pulse text-center">
+        <button type="button">Create a Buzz!</button></div>
 
 </div>
   )
