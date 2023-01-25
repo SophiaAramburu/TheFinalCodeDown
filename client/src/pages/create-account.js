@@ -7,7 +7,7 @@ export default function Signup() {
       
      
       <form>
-
+    <br></br><br></br>
       <div class="input-1 text-2xl font md:font-serif">
         <label>
           First Name:
@@ -18,28 +18,28 @@ export default function Signup() {
       <div class="input-2 text-2xl md:font-serif">
         <label>
           Last Name:
-          <input class ="bg-black" type="text" name="name" placeholder="Last Name" />
+          <input class ="bg-black text-white" type="text" name="name" placeholder="Last Name" />
         </label>
       </div>
       <br></br><br></br>
       <div class="input-3 text-2xl md:font-serif">
         <label>
           Email:
-          <input class ="bg-black" type="text" name="name" placeholder="Email" />
+          <input class ="bg-black text-white" type="text" name="name" placeholder="Email" />
         </label>
       </div>
       <br></br><br></br>
       <div class="input-4 text-2xl md:font-serif">
         <label>
           Password:
-          <input class ="bg-black" type="text" name="name" placeholder="Password" />
+          <input class ="bg-black text-white" type="text" name="name" placeholder="Password" />
         </label>
       </div>
       <br></br><br></br>
       <div class="input-5 text-2xl md:font-serif">
         <label>
           Confirm Password:
-          <input class ="bg-black" type="text" name="name" placeholder="Confirm Password" />
+          <input class ="bg-black text-white" type="text" name="name" placeholder="Confirm Password" />
         </label>
       </div>
       <br></br><br></br>
