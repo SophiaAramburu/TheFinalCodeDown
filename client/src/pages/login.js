@@ -1,34 +1,52 @@
-// import * as React from "react";
-// export default function Login() {
-    
-//         return (
-//             <div className="inner-container">
-// // https://ej2.syncfusion.com/react/documentation/textbox/how-to/add-textbox-programmatically/
-// // import { Input } from '@syncfusion/ej2-inputs';
-// import * as React from "react";
-// import * as ReactDOM from "react-dom";
-// export default class Default extends React.Component {
-//     render() {
-//         return (<div className="inner-container">
-//             <p>Log In</p>
-//             <input id="input-01" type="text" ref={e1 => this.input1 = e1}/>
-//             <input id="input-02" type="text" ref={e2 => this.input2 = e2}/>
-//         </div>);
+import React from 'react'
+import signupPhoto from '../assets/images/signup.png'
+import Logo from '../assets/images/header.jpg'
 
-//     // require email
-//     //email() {
-//         // Input.createInput({
-//         //     element: this.input1,
-//         //     properties: {
-//         //         placeholder: 'Enter email address'
-//         //     }
-//         // });
-//         // Input.createInput({
-//         //     buttons: ['e-input-group-icon e-input-down'],
-//         //     element: this.input2,
-//         //     properties: {
-//         //         placeholder: 'Enter Value'
-//         //     }
-//         // });
-//     }};
+export default function Signup() {
+  return (
+    <div class="create-account bg-yellow-200">
+      
+      <form>
 
+      <div class="input-1 text-2xl font md:font-serif">
+        <label>
+          First Name:
+          <input class ="bg-black text-white"type="text" name="name" placeholder="First Name" />
+        </label> 
+      </div>
+      <br></br><br></br>
+      <div class="input-2 text-2xl md:font-serif">
+        <label>
+          Last Name:
+          <input class ="bg-black" type="text" name="name" placeholder="Last Name" />
+        </label>
+      </div>
+      <br></br><br></br>
+      <div class="input-3 text-2xl md:font-serif">
+        <label>
+          Email:
+          <input class ="bg-black" type="text" name="name" placeholder="Email" />
+        </label>
+      </div>
+      <br></br><br></br>
+      <div class="input-4 text-2xl md:font-serif">
+        <label>
+          Password:
+          <input class ="bg-black" type="text" name="name" placeholder="Password" />
+        </label>
+      </div>
+      <br></br><br></br>
+      <div class="input-5 text-2xl md:font-serif">
+        <label>
+          Confirm Password:
+          <input class ="bg-black" type="text" name="name" placeholder="Confirm Password" />
+        </label>
+      </div>
+      <br></br><br></br>
+      </form>
+
+      <button class="button text-2xl md:font-serif text-center" type="button">Register Now!</button>
+
+    </div>
+  )
+}
