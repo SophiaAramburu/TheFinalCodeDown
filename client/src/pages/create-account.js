@@ -1,4 +1,5 @@
 import React from 'react'
+import drunkBee from '../assets/images/drunkbee.png'
 import signupPhoto from '../assets/images/signup.png'
 import { Link } from 'react-router-dom';
 
@@ -9,10 +10,11 @@ export default function Signup() {
      
       <form>
     <br></br><br></br>
-      <div class="input-1 text-2xl font md:font-serif pl-7 pt-34 text-center border-solid">
+    <img class ="mx-auto flex-wrap" src={drunkBee} alt="Drunk bee" width="300" height="350"/><br></br>
+      <div class="input-1 text-2xl font md:font-serif pl-7 pt-34 text-center border-solid ring-white">
         <label>
           First Name:
-          <input class ="bg-black text-white pl-7"type="text" name="name" placeholder="First Name" />
+          <input class ="bg-black text-white pl-7"type="text" name="name" placeholder="" />
         </label> 
       </div>
 
@@ -22,7 +24,7 @@ export default function Signup() {
       
         <label>
           Last Name:
-          <input class ="bg-black text-white" type="text" name="name" placeholder="Last Name" />
+          <input class ="bg-black text-white" type="text" name="name" placeholder="" />
         </label>
       </div>
 
@@ -32,7 +34,7 @@ export default function Signup() {
 
         <label>
           Email:
-          <input class ="bg-black text-white" type="text" name="name" placeholder="Email" />
+          <input class ="bg-black text-white" type="text" name="name" placeholder="" />
         </label>
       </div>
 
@@ -42,7 +44,7 @@ export default function Signup() {
 
         <label>
           Password:
-          <input class ="bg-black text-white" type="text" name="name" placeholder="Password" />
+          <input class ="bg-black text-white" type="text" name="name" placeholder="" />
         </label>
       </div>
 
@@ -52,7 +54,7 @@ export default function Signup() {
 
         <label>
           Confirm Password:
-          <input class ="bg-black text-white" type="text" name="name" placeholder="Confirm Password" />
+          <input class ="bg-black text-white" type="text" name="name" placeholder="" />
         </label>
       </div>
 
