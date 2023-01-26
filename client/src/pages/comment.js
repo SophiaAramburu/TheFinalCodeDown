@@ -1,8 +1,10 @@
 import React from 'react'
 import drunkBee from '../assets/images/drunkbee.png'
-export default function Comment() {
+import CommentList from '../components/comment-list'
+
+function Comment() {
   return (
-     
+
     <div class="top-buzz-container bg-yellow-200"><br></br>
        <img class ="mx-auto outline" src={drunkBee} alt="Drunk bee" width="300" height="350"/>
        <br></br><br></br>
@@ -53,5 +55,5 @@ export default function Comment() {
 </div>
   )
 }
-
+export default Comment
 // need export default here
