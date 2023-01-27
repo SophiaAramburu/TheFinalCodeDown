@@ -6,11 +6,11 @@
 
 - [Repo](https://github.com/SophiaAramburu/TheFinalCodeDown)
 
-- [Live Application](https://github.com/SophiaAramburu/TheFinalCodeDown)
+- [Live Application](http://barscapes.herokuapp.com/)
 
 ## Screenshots
 
-<img src="https://i.ibb.co/4Rp028b/Screenshot-2023-01-24-at-9-15-38-PM.png" alt="Screenshot-2023-01-24-at-9-15-38-PM" border="0">
+![Homepage_of_application_screen_shot](/client/images/Homepage.jpg)
 
 ## Available Commands
 
